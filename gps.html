@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>gps</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            function setGPSInfo(latitude, longitude) {
+                document.getElementById("longitude").innerHTML = longitude;
+                document.getElementById("latitude").innerHTML = latitude;
+            }
+        </script>
+        <h1>GPS Info</h1>
+        <p>long: <span id="latitude"></span></p>
+        <p>lat: <span id="longitude"></span></p>
+        <br><br>
+        <a href="uniwebview://close">
+            <button>close</button>
+        </a>
+    </body>
+</html>
